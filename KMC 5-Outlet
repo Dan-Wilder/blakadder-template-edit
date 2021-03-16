@@ -1,0 +1,16 @@
+---
+date_added: 2019-05-15
+title: KMC 5AC 3USB QC
+model: 43237
+category: plug
+type: Power Strip
+standard: us
+link: https://www.amazon.com/gp/product/B07G2WXK3N
+image: https://images-na.ssl-images-amazon.com/images/I/51W8zEDubLL._SL1000_.jpg
+template: '{"NAME":"KMC 5-Outlet","GPIO":[56,0,0,0,25,9,0,0,22,21,23,0,24],"FLAG":0,"BASE":18}' 
+link2: 
+---
+
+To enable multi-press power button functionality with the original template, change GPIO5 to Button 1 instead of Switch 1.
+Alternate template:
+template: '{"NAME":"KMC 5-Outlet","GPIO":[320,0,0,0,228,32,0,0,225,224,226,0,227,0],"FLAG":0,"BASE":18}'
